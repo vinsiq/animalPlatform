@@ -1,0 +1,109 @@
+/* 
+    Created on : 27/02/2014, 11:28:43
+    Author     : vinicius.siqueira
+*/
+/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}*/
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+html, body {
+    height: 100%;
+}
+body {
+    padding-top: 40px;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -50px;
+}
+/* Set the fixed height of the footer here */
+#footer {
+    height: 50px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    -webkit-box-shadow: 0px -1px 5px #e7e7e7;
+    box-shadow: 0px -1px 5px #e7e7e7;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+#push {
+    height: 50px;
+}
+.centerfy {
+    text-align: center;
+}
+.centerfy img {
+    margin: 0 auto;
+}
+.container .jumbotron-themed {
+    border-radius: 6px;
+}
+.form-control {
+    width: 40%;
+}
+@media (max-width: 769px) {
+    .form-control {
+        width: 80%;
+    }
+}
+.form-control-center {
+    display:inline-block;
+}
+/*footer {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}*/
+.jumbotron-themed {
+    padding: 30px;
+    margin-bottom: 30px;
+    color: #FFF;
+    //color: inherit;
+    //background-color: #eee;
+
+    background: rgb(108,98,126); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(108,98,126,1) 0%, rgba(123,140,181,1) 47%, rgba(96,122,182,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(108,98,126,1)), color-stop(47%,rgba(123,140,181,1)), color-stop(100%,rgba(96,122,182,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  rgba(108,98,126,1) 0%,rgba(123,140,181,1) 47%,rgba(96,122,182,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  rgba(108,98,126,1) 0%,rgba(123,140,181,1) 47%,rgba(96,122,182,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  rgba(108,98,126,1) 0%,rgba(123,140,181,1) 47%,rgba(96,122,182,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg,  rgba(108,98,126,1) 0%,rgba(123,140,181,1) 47%,rgba(96,122,182,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c627e', endColorstr='#607ab6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.logo {
+    margin-left: 1em;
+}
+.main-content {
+    margin-top: 25px;
+}
+.navbar-fixed-bottom {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar-nav {
+    float: left;
+    margin-left: 1em;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #7737a6;
+    font-weight: bold;
+    background-color: transparent;
+}
+textarea { 
+    resize:none; 
+}
